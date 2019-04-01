@@ -10,33 +10,45 @@ body {
 
 #menubar {
     background-color: #5f6266;
-    height: 100px;
-    width:auto;
+    width: 100%;
     border-bottom: 1px dashed #f6f6f6;
     font-weight: bold;
     text-align: right;
     word-spacing: 2em;
-    text-align: bottom;
     padding-right: 10px;
-    
+    position: fixed;
+    text-decoration: none;
 }
 
-.bmth {
+.logo {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+#bmth {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 1fr 1fr;
 }
 
 .bmth2 img {
     grid-column: 1/2;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     padding: 50px;
+    
+
 }
 
-.bmth img {
-    
+.bmth1 >img {  
     grid-column: 2/3;
-    height: 700px;
-    width: 300px;
+    width: 850px;
+    height: 630px;
     padding: 50px;
+    margin-top: 100px; 
 }
