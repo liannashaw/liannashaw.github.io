@@ -11,13 +11,22 @@ body {
 #menubar {
     background-color: #5f6266;
     width: 100%;
-    border-bottom: 1px dashed #f6f6f6;
+    border-bottom: 4px dashed #f6f6f6;
     font-weight: bold;
     text-align: right;
     word-spacing: 2em;
     padding-right: 10px;
     position: fixed;
+}
+
+a {
     text-decoration: none;
+    font-size: 1.4em;
+    color: #681287;
+}
+
+a:hover {
+    color: #5ad9ed;
 }
 
 .logo {
@@ -35,7 +44,6 @@ body {
 #qotsa {
     display: grid;
     grid-template-columns: 15% 70% 15%;
-    padding: 20px;
     
 }
 
